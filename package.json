@@ -1,0 +1,14 @@
+{
+  "name": "forward-coffee",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FORWARD COFFEE — editorial coffee journal website built from the Stitch design set.",
+  "scripts": {
+    "dev": "python -m http.server 5173 --bind 127.0.0.1",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}

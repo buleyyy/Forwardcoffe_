@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    overscroll-behavior: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    background-color: #f1eee5;
+  }
+
+  :focus-visible {
+    outline: 2px solid #151f14;
+    outline-offset: 2px;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+}

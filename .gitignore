@@ -1,0 +1,12 @@
+@"
+node_modules/
+.env
+.env.*
+!.env.example
+.next/
+dist/
+build/
+coverage/
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8

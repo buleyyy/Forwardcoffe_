@@ -10,3 +10,30 @@ coverage/
 .DS_Store
 Thumbs.db
 "@ | Out-File -FilePath .gitignore -Encoding utf8
+
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Build
+.next/
+dist/
+build/
+coverage/
+
+# AI reference folders (local only)
+.freebuff/
+freebuff/
+stitch_forward_coffee_brand_platform/
+
+# Local AI instructions and context
+CLAUDE.local.md
+GEMINI.local.md
+
+# OS files
+.DS_Store
+Thumbs.db
